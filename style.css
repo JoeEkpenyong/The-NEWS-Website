@@ -144,16 +144,18 @@ img:hover {
 }
 
 .logo-the {
-    font-family: "UnifrakturCook", "Old English Text MT", serif;
+    font-family: "Manufacturing Consent", system-ui;
     font-size: 88px;
-    font-weight: 700;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: -4px;
 }
 
 .logo-news {
-    font-family: "Anton", Impact, sans-serif;
+    font-family: "Manufacturing Consent", system-ui;
     font-size: 88px;
     font-weight: 400;
+    font-style: normal;
     letter-spacing: -1.5px;
 }
 
@@ -659,16 +661,18 @@ img:hover {
 }
 
 .footer-logo .logo-the {
-    font-family: "UnifrakturCook", "Old English Text MT", serif;
+    font-family: "Manufacturing Consent", system-ui;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: -1px;
 }
 
 .footer-logo .logo-news {
-    font-family: "Anton", Impact, sans-serif;
+    font-family: "Manufacturing Consent", system-ui;
     font-size: 32px;
     font-weight: 400;
+    font-style: normal;
     letter-spacing: -0.5px;
 }
 
