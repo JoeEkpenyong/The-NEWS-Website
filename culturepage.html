@@ -18,7 +18,7 @@
     <!-- HEADER -->
     <header class="site-header">
         <div class="top-bar">
-            <span class="date-info">
+            <time class="date-info" datetime="2024-10-29">
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width="18"
@@ -36,7 +36,7 @@
         <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
     </svg>
     <span>Tuesday, October 29, 2024</span>
-</span>
+</time>
          <div class="top-actions">
     <button class="menu-button" aria-label="Open menu">
         <span>Culture</span>
@@ -106,7 +106,9 @@
 </nav>
 </header>
 
-<section class="featured-story culture-page-story">
+<main class="culture-page-main">
+
+<header class="featured-story culture-page-story">
 
     <div class="hero-image">
         <img
@@ -141,11 +143,11 @@
                 <rect x="3" y="5" width="18" height="16" rx="2"></rect>
                 <path d="M16 3v4M8 3v4M3 11h18"></path>
             </svg>
-            <p>Monday, September 9, 2024</p>
+            <time datetime="2024-09-09">Monday, September 9, 2024</time>
         </div>
     </div>
 
-</section>
+</header>
 
 
 <article class="culture-article">
@@ -204,12 +206,11 @@
 
 <!-- SIMILAR NEWS -->
 <section class="similar-news">
-    <div class="similar-news-heading">
+    <header class="similar-news-heading">
         <h2>Similar News</h2>
-    </div>
+    </header>
 
-    <div class="similar-news-grid">
-
+    <ul class="similar-news-grid">
         <!-- News 1 -->
         <article class="similar-news-card">
             <a href="#">
@@ -242,19 +243,18 @@
         </article>
 
     </div>
+
 </section>
 
 
+</main>
 
-
-
-
- <!-- FOOTER -->
+<!-- FOOTER -->
     <footer class="site-footer">
-        <div class="footer-logo"><span class="logo-the">The</span><span class="logo-news">NEWS</span><span class="logo-star" aria-hidden="true">*</span></div>
+        <a href="index.html" class="footer-logo" aria-label="The NEWS home"><span class="logo-the">The</span><span class="logo-news">NEWS</span><span class="logo-star" aria-hidden="true">*</span></a>
         <div class="footer-bottom">
             <p>© Copyright 2024 - The News - All rights reserved</p>
-          <div class="social-links">
+          <nav class="social-links" aria-label="Social media">
     <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
         <i class="fa-brands fa-instagram"></i>
     </a>
@@ -270,7 +270,8 @@
     <a href="https://discord.com/" target="_blank" rel="noopener noreferrer" aria-label="Discord">
         <i class="fa-brands fa-discord"></i>
     </a>
-</div>
+</nav>
+        </div>
     </footer>
 
 </body>

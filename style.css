@@ -1661,6 +1661,9 @@ img:hover {
 
 .similar-news-grid {
     display: grid;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 25px;
 }
