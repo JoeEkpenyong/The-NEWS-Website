@@ -162,7 +162,9 @@ img:hover {
 .logo-star {
     align-self: flex-start;
     margin: 4px 0 0 -3px;
-    font-family: Georgia, serif;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 43px;
     line-height: 1;
 }
@@ -678,7 +680,9 @@ img:hover {
 
 .footer-logo .logo-star {
     align-self: flex-start;
-    font-family: Georgia, serif;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 16px;
     line-height: 1;
     margin: 2px 0 0 -2px;
