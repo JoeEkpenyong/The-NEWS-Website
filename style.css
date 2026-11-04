@@ -348,6 +348,7 @@ img:hover {
     margin-bottom: 20px;
 }
 
+.section-heading h1,
 .section-heading h2 {
     font-size: 23px;
     font-weight: 500;
@@ -820,7 +821,8 @@ img:hover {
         font-size: 24px;
     }
 
-    .section-heading h2 {
+    .section-heading h1,
+.section-heading h2 {
         font-size: 19px;
     }
 
@@ -955,7 +957,7 @@ img:hover {
     padding-bottom: 15px;
 }
 
-.politics-section-heading h2 {
+.politics-section-heading h1 {
     margin: 0;
     font-size: 28px;
     font-weight: 700;
@@ -1026,7 +1028,7 @@ img:hover {
     padding-bottom: 15px;
 }
 
-.business-section-heading h2 {
+.business-section-heading h1 {
     margin: 0;
     font-size: 28px;
     font-weight: 700;
@@ -1095,7 +1097,7 @@ img:hover {
     padding-bottom: 15px;
 }
 
-.technology-section-heading h2 {
+.technology-section-heading h1 {
     margin: 0;
     font-size: 28px;
     font-weight: 700;
@@ -1164,7 +1166,7 @@ img:hover {
     padding-bottom: 15px;
 }
 
-.health-section-heading h2 {
+.health-section-heading h1 {
     margin: 0;
     font-size: 28px;
     font-weight: 700;
@@ -1233,7 +1235,7 @@ img:hover {
     padding-bottom: 15px;
 }
 
-.sports-section-heading h2 {
+.sports-section-heading h1 {
     margin: 0;
     font-size: 28px;
     font-weight: 700;
@@ -1302,7 +1304,7 @@ img:hover {
     padding-bottom: 15px;
 }
 
-.culture-section-heading h2 {
+.culture-section-heading h1 {
     margin: 0;
     font-size: 28px;
     font-weight: 700;
@@ -1371,7 +1373,7 @@ img:hover {
     padding-bottom: 15px;
 }
 
-.podcast-section-heading h2 {
+.podcast-section-heading h1 {
     margin: 0;
     font-size: 28px;
     font-weight: 700;
