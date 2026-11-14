@@ -294,3 +294,41 @@ if (resultsContainer && searchSummary) {
         });
     }
 }
+
+
+// Mobile navigation: open, close, and keep accessibility state in sync.
+const menuButton = document.querySelector(".menu-button");
+const mainNavigation = document.querySelector("#main-navigation");
+
+if (menuButton && mainNavigation) {
+    menuButton.addEventListener("click", function () {
+        const isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        menuButton.setAttribute("aria-expanded", String(!isExpanded));
+        menuButton.setAttribute("aria-label", isExpanded ? "Open menu" : "Close menu");
+        mainNavigation.classList.toggle("is-open", !isExpanded);
+    });
+
+    mainNavigation.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+            menuButton.setAttribute("aria-expanded", "false");
+            menuButton.setAttribute("aria-label", "Open menu");
+            mainNavigation.classList.remove("is-open");
+        });
+    });
+
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+            menuButton.setAttribute("aria-expanded", "false");
+            menuButton.setAttribute("aria-label", "Open menu");
+            mainNavigation.classList.remove("is-open");
+        }
+    });
+
+    window.addEventListener("resize", function () {
+        if (window.innerWidth > 600) {
+            menuButton.setAttribute("aria-expanded", "false");
+            menuButton.setAttribute("aria-label", "Open menu");
+            mainNavigation.classList.remove("is-open");
+        }
+    });
+}
