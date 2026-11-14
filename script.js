@@ -332,3 +332,29 @@ if (menuButton && mainNavigation) {
         }
     });
 }
+
+
+// Automatically highlight the navigation link for the current page.
+const pageNavigation = document.querySelector(".main-nav");
+
+if (pageNavigation) {
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+    // The culture article belongs to the Culture navigation section.
+    const activePage = currentPage === "culturepage.html"
+        ? "culture.html"
+        : currentPage;
+
+    pageNavigation.querySelectorAll("a").forEach(function (link) {
+        const linkPage = link.getAttribute("href");
+        const isCurrentPage = linkPage === activePage;
+
+        link.classList.toggle("active", isCurrentPage);
+
+        if (isCurrentPage) {
+            link.setAttribute("aria-current", "page");
+        } else {
+            link.removeAttribute("aria-current");
+        }
+    });
+}
