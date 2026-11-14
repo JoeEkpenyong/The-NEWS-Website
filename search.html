@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search articles and stories from The News.">
+    <title>Search Results | The News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="search-page-header">
+        <a href="index.html" class="search-page-logo">The NEWS *</a>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="worldnews.html">World News</a>
+            <a href="politics.html">Politics</a>
+            <a href="business.html">Business</a>
+            <a href="technology.html">Technology</a>
+            <a href="health.html">Health</a>
+            <a href="sports.html">Sports</a>
+            <a href="culture.html">Culture</a>
+            <a href="podcast.html">Podcast</a>
+        </nav>
+    </header>
+
+    <main class="search-results-page">
+        <h1>Search The News</h1>
+        <form class="search-form search-page-form" action="search.html" method="get">
+            <input type="search" name="q" placeholder="Search news..." aria-label="Search news" required>
+            <button type="submit">Search</button>
+        </form>
+        <p id="search-summary" aria-live="polite"></p>
+        <section id="search-results" class="search-results-list" aria-label="Search results"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
