@@ -260,10 +260,12 @@ if (resultsContainer && searchSummary) {
     const searchParams = new URLSearchParams(window.location.search);
     const searchTerm = (searchParams.get("q") || "").trim().toLowerCase();
 
-    const matchingArticles = articles.filter(function (article) {
-        return article.title.toLowerCase().includes(searchTerm) ||
-            article.category.toLowerCase().includes(searchTerm);
-    });
+    const matchingArticles = searchTerm
+        ? articles.filter(function (article) {
+            return article.title.toLowerCase().includes(searchTerm) ||
+                article.category.toLowerCase().includes(searchTerm);
+        })
+        : [];
 
     searchSummary.textContent = searchTerm
         ? matchingArticles.length + ' result(s) for "' + searchParams.get("q") + '"'
