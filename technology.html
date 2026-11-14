@@ -40,8 +40,9 @@
     <span>Tuesday, October 29, 2024</span>
 </time>
          <div class="top-actions">
-    <button class="menu-button" aria-label="Open menu">
-        <span>Technology</span>
+    <button class="menu-button" type="button" aria-label="Open menu" aria-controls="main-navigation" aria-expanded="false">
+        <span class="menu-button-label">Technology</span>
+        <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
     </button>
 
    <span class="action-arrow" aria-hidden="true">
@@ -87,7 +88,7 @@
     </a>
 </div>
 
-<nav class="main-nav">
+<nav class="main-nav" id="main-navigation">
     <a href="worldnews.html">World News</a>
     <a href="politics.html">Politics</a>
     <a href="business.html">Business</a>
