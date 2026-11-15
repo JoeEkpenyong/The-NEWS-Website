@@ -405,3 +405,27 @@ articleGrids.forEach(function (grid) {
         }
     });
 });
+
+// Back to Top: help visitors return to the beginning of the page.
+const backToTopButton = document.createElement("button");
+backToTopButton.type = "button";
+backToTopButton.className = "back-to-top";
+backToTopButton.textContent = "↑";
+backToTopButton.setAttribute("aria-label", "Back to top");
+backToTopButton.title = "Back to top";
+document.body.appendChild(backToTopButton);
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 400) {
+        backToTopButton.classList.add("is-visible");
+    } else {
+        backToTopButton.classList.remove("is-visible");
+    }
+}, { passive: true });
+
+backToTopButton.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
