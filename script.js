@@ -358,3 +358,50 @@ if (pageNavigation) {
         }
     });
 }
+
+// Load More: reveal news cards in small groups.
+const articleGrids = document.querySelectorAll(
+    ".world-grid, .politics-grid, .business-grid, .technology-grid, .health-grid, .sports-grid, .culture-grid, .podcast-page .podcast-grid"
+);
+
+articleGrids.forEach(function (grid) {
+    const cards = Array.from(grid.querySelectorAll(":scope > article"));
+    const initialCards = 3;
+    const cardsPerClick = 2;
+    let visibleCards = initialCards;
+
+    if (cards.length <= initialCards) {
+        return;
+    }
+
+    cards.forEach(function (card, index) {
+        if (index >= initialCards) {
+            card.hidden = true;
+        }
+    });
+
+    const loadMoreButton = document.createElement("button");
+    loadMoreButton.type = "button";
+    loadMoreButton.className = "load-more-button";
+    loadMoreButton.textContent = "Load More";
+    loadMoreButton.setAttribute("aria-label", "Load more articles");
+
+    grid.insertAdjacentElement("afterend", loadMoreButton);
+
+    loadMoreButton.addEventListener("click", function () {
+        const nextVisibleCards = Math.min(
+            visibleCards + cardsPerClick,
+            cards.length
+        );
+
+        for (let index = visibleCards; index < nextVisibleCards; index++) {
+            cards[index].hidden = false;
+        }
+
+        visibleCards = nextVisibleCards;
+
+        if (visibleCards === cards.length) {
+            loadMoreButton.remove();
+        }
+    });
+});
