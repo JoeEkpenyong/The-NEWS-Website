@@ -1,4 +1,36 @@
 // Page content migrated from the original culture.html.
 export function renderCulture() {
-  return "<main class=\"page-container culture-page\">\n    <section class=\"culture-content-section\">\n        <header class=\"culture-section-heading\">\n            <h1>CULTURE</h1>\n        </header>\n\n        <div class=\"culture-grid\">\n            <article class=\"culture-story\">\n                <img src=\"Images/Frame 89.jpg\" alt=\"Cultural celebration\">\n                <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                <h3>Communities Celebrate Traditions That Connect Generations</h3>\n            </article>\n\n            <article class=\"culture-story\">\n                <img src=\"Images/Frame 76.jpg\" alt=\"Art exhibition\">\n                <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                <h3>Artists Find New Ways to Share Their Work with the World</h3>\n            </article>\n\n            <article class=\"culture-story\">\n                <img src=\"Images/Frame 76 (1).jpg\" alt=\"Music and live performance\">\n                <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                <h3>Music and Film Continue to Influence Popular Culture</h3>\n            </article>\n\n            <article class=\"culture-story\">\n                <img src=\"Images/Frame 76 (2).jpg\" alt=\"Historic architecture\">\n                <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                <h3>Historic Landmarks Tell Stories About Our Shared Heritage</h3>\n            </article>\n        </div>\n    </section>\n</main>";
+  return `<main class="page-container culture-page">
+    <section class="culture-content-section">
+        <header class="culture-section-heading">
+            <h1>CULTURE</h1>
+        </header>
+
+        <div class="culture-grid">
+            <article class="culture-story">
+                <img src="Images/Frame 89.jpg" alt="Cultural celebration">
+                <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                <h3>Communities Celebrate Traditions That Connect Generations</h3>
+            </article>
+
+            <article class="culture-story">
+                <img src="Images/Frame 76.jpg" alt="Art exhibition">
+                <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                <h3>Artists Find New Ways to Share Their Work with the World</h3>
+            </article>
+
+            <article class="culture-story">
+                <img src="Images/Frame 76 (1).jpg" alt="Music and live performance">
+                <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                <h3>Music and Film Continue to Influence Popular Culture</h3>
+            </article>
+
+            <article class="culture-story">
+                <img src="Images/Frame 76 (2).jpg" alt="Historic architecture">
+                <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                <h3>Historic Landmarks Tell Stories About Our Shared Heritage</h3>
+            </article>
+        </div>
+    </section>
+</main>`;
 }
