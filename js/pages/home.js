@@ -46,9 +46,9 @@ export function renderHome() {
     <div class="hero-image" aria-label="Featured news image carousel">
         <div class="hero-slides">
             <img class="hero-slide is-active" src="Images/66de9b19c334563cf4036aa2_news-main-14-p-2000.jpg.jpg" alt="St Peter's Basilica">
-            <img class="hero-slide" src="Images/66daa00a9ca7528191cd8a14_news-thumb-05.jpg" alt="International news headline">
-            <img class="hero-slide" src="Images/Frame 76.jpg" alt="Global business and economic news">
-            <img class="hero-slide" src="Images/Frame 92.jpg" alt="Technology and innovation news">
+            <img class="hero-slide" src="Images/Culture Images/pexels-benprater-38033690.jpg" alt="Cultural celebration">
+            <img class="hero-slide" src="Images/Culture Images/pexels-michael-d-beckwith-2150568551-37884368.jpg" alt="Art exhibition">
+            <img class="hero-slide" src="Images/Culture Images/pexels-mingche-lee-2072368-39732021.jpg" alt="Music and live performance">
         </div>
         <span class="live-label"><i></i>Live updates</span>
         <div class="hero-slider-controls">
