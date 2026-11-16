@@ -1,4 +1,36 @@
 // Page content migrated from the original health.html page.
 export function renderHealth() {
-  return "<main class=\"page-container health-page\">\n    <section class=\"health-content-section\">\n        <header class=\"health-section-heading\">\n            <h1>HEALTH</h1>\n        </header>\n\n        <div class=\"health-grid\">\n            <article class=\"health-story\">\n                <img src=\"Images/Frame 89.jpg\" alt=\"Healthcare professionals\">\n                <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                <h3>Healthcare Experts Highlight the Importance of Preventive Care</h3>\n            </article>\n\n            <article class=\"health-story\">\n                <img src=\"Images/Frame 76.jpg\" alt=\"Healthy lifestyle and exercise\">\n                <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                <h3>Simple Lifestyle Changes That Can Support Better Health</h3>\n            </article>\n\n            <article class=\"health-story\">\n                <img src=\"Images/Frame 76 (1).jpg\" alt=\"Medical researchers working in a laboratory\">\n                <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                <h3>Researchers Explore New Approaches to Treating Common Diseases</h3>\n            </article>\n\n            <article class=\"health-story\">\n                <img src=\"Images/Frame 76 (2).jpg\" alt=\"Healthcare facility\">\n                <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                <h3>Communities Work to Improve Access to Essential Health Services</h3>\n            </article>\n        </div>\n    </section>\n</main>";
+  return `<main class="page-container health-page">
+    <section class="health-content-section">
+        <header class="health-section-heading">
+            <h1>HEALTH</h1>
+        </header>
+
+        <div class="health-grid">
+            <article class="health-story">
+                <img src="Images/Frame 89.jpg" alt="Healthcare professionals">
+                <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                <h3>Healthcare Experts Highlight the Importance of Preventive Care</h3>
+            </article>
+
+            <article class="health-story">
+                <img src="Images/Frame 76.jpg" alt="Healthy lifestyle and exercise">
+                <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                <h3>Simple Lifestyle Changes That Can Support Better Health</h3>
+            </article>
+
+            <article class="health-story">
+                <img src="Images/Frame 76 (1).jpg" alt="Medical researchers working in a laboratory">
+                <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                <h3>Researchers Explore New Approaches to Treating Common Diseases</h3>
+            </article>
+
+            <article class="health-story">
+                <img src="Images/Frame 76 (2).jpg" alt="Healthcare facility">
+                <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                <h3>Communities Work to Improve Access to Essential Health Services</h3>
+            </article>
+        </div>
+    </section>
+</main>`;
 }
