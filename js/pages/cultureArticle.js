@@ -1,4 +1,145 @@
 // Page content migrated from the original culturepage.html.
 export function renderCultureArticle() {
-  return "<main class=\"culture-page-main\">\n\n<header class=\"featured-story culture-page-story\">\n\n    <div class=\"hero-image\">\n        <img\n            src=\"Images/66de9b19c334563cf4036aa2_news-main-14-p-2000.jpg.jpg\"\n            alt=\"St Peter's Basilica\"\n        >\n    </div>\n\n    <div class=\"hero-text\">\n        <div class=\"author-info\">\n            <img\n                src=\"Images/author.jpg\"\n                alt=\"Guy Hawkins\"\n                class=\"author-pic\"\n            >\n            <h2>GUY HAWKINS</h2>\n        </div>\n\n        <div class=\"article-date\">\n            <svg\n                xmlns=\"http://www.w3.org/2000/svg\"\n                width=\"16\"\n                height=\"16\"\n                viewBox=\"0 0 24 24\"\n                fill=\"none\"\n                stroke=\"currentColor\"\n                stroke-width=\"1.8\"\n                stroke-linecap=\"round\"\n                stroke-linejoin=\"round\"\n                aria-hidden=\"true\"\n            >\n                <rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"></rect>\n                <path d=\"M16 3v4M8 3v4M3 11h18\"></path>\n            </svg>\n            <time datetime=\"2024-09-09\">Monday, September 9, 2024</time>\n        </div>\n    </div>\n\n</header>\n\n\n<article class=\"culture-article\">\n\n<h1>A Deep Dive into the Influence of Cultural Movements on Contemporary Society</h1>\n\n<p>Cultural movements have been a driving force behind societal change for centuries, but in today's globally connected world, theirinfluence has grown stronger and more immediate. These movements, ranging from social justice initiatives to environmentalcampaigns and digital innovations, shape not only individual beliefs but also entire communities and industries. The growingawareness and advocacy surrounding these causes highlight a societal shift toward inclusivity, diversity, and sustainabilityprinciples that are increasingly guiding the evolution of modern society.\n    </p>\n\n    <p>\n        One of the most prominent cultural movements in recent years has been the call for social justice and equality. This movementhas manifested in multiple forms, from the fight for gender equality and racial justice to the push for LGBTQ+ rights and workplaceinclusivity. As a result, companies, organizations, and even governments have been compelled to reconsider their practices andpolicies. Many businesses are implementing diversity and inclusion programs, and several organizations are actively working toclose pay gaps, ensure fair representation, and create safe spaces for marginalized groups. The influence of these efforts isapparent not only in the corporate world but also in entertainment, education, and media, where diverse representation andauthentic storytelling are now priorities.\n    </p>\n\n    <p>\n        Environmental movements are another powerful force reshaping contemporary society. From climate change activism tosustainable agriculture, people around the world are uniting to address environmental challenges. This push for sustainability is notonly affecting consumer behavior—where eco-friendly products and services are now highly valued—but is also prompting entireindustries to innovate. Many companies are investing in renewable energy, adopting zero-waste policies, and striving to reducetheir carbon footprint. Governments are also beginning to prioritize green policies, influenced by grassroots activism and theurgency of global warming. These environmental movements emphasize the need for both immediate and long-term changes toprotect the planet and its resources, encouraging individuals and corporations alike to rethink their environmental impact.\n    </p>\n\n    <p>\n        The rise of digital culture and technology-driven movements has further transformed how people engage with one another andparticipate in cultural shifts. Social media platforms have become powerful tools for awareness, allowing messages to spreadquickly and widely. Hashtags, viral campaigns, and online communities have enabled people to rally around common causes, fromhuman rights to political reform. This digital connectivity has not only broadened the reach of cultural movements but has alsoallowed individuals to play a more active role in social change. People can now share resources, organize events, and foster aglobal sense of community, bringing together individuals from different backgrounds and regions in pursuit of shared goals.\n    </p>\n\n    <p>\n        At the same time, cultural movements have left a significant impact on the arts and media industries. As awareness grows aroundissues like representation, mental health, and inclusivity, artists and creators are using their work to reflect these themes. Frommovies and television shows that tackle difficult social topics to literature that challenges traditional norms, art has become amedium through which societal issues are discussed and understood. Artists are pushing for stories that reflect a wide range ofhuman experiences, highlighting voices and narratives that have often been overlooked. This trend is not only expanding the scopeof artistic expression but is also encouraging audiences to consider diverse perspectives and engage in meaningful conversationsabout identity, equity, and empathy.\n    </p>\n\n    <p>\n        Education systems are also evolving in response to cultural movements. Schools and universities are gradually incorporatinglessons on topics such as climate change, mental health, and social justice, equipping students with the knowledge and skillsthey need to navigate a rapidly changing world. Many educational institutions are moving away from traditional, rigid curriculumsto more dynamic approaches that encourage critical thinking and awareness of global issues. These changes are preparingyounger generations to be not only knowledgeable but also empathetic and socially conscious, fostering a new wave of leaderswho value progress, inclusivity, and sustainability.\n    </p>\n\n    <h2>The Effects of Cultural Movements</h2>\n\n    <ul>\n        <li>Social justice movements are influencing business practices, encouraging inclusivity, fair representation, and equality in various sectors.</li>\n        <li>Environmental activism is driving industries toward sustainable practices, emphasizing green energy, waste reduction, and climate-conscious decision-making.</li>\n        <li>Digital connectivity has transformed how cultural movements spread, enabling individuals to participate in and support global causes through online platforms.</li>\n        <li>Arts and media are increasingly highlighting diverse perspectives, using storytelling to address complex societal issues and foster empathy.</li>\n        <li>Educational reforms are embedding critical social issues into curriculums, preparing future generations to approach the world with a socially and environmentally aware mindset.</li>\n    </ul>\n\n    <p>\n        These cultural movements underscore the importance of collective action, demonstrating that significant change is possiblewhen individuals and communities work together toward common goals. As we face global challenges, from environmental crisesto social inequalities, the role of cultural movements in shaping our future becomes increasingly vital. These movements not onlyadvocate for progress but also provide a roadmap for building a more inclusive, compassionate, and resilient society.\n    </p>\n\n    <p>\n        Looking ahead, the continued influence of cultural movements will likely shape new trends and priorities across various aspectsof life. Future innovations in technology, shifts in political policies, and even changes in everyday social interactions will all beinformed by the growing awareness and aspirations that these movements represent. In many ways, cultural movements reflecthumanity's collective journey toward a more just and equitable world, inspiring individuals to rethink their roles and contributionswithin their communities and beyond.\n    </p>\n\n    <p>\n        By examining and understanding these movements, we gain insight into the forces that drive modern society, encouraging us toparticipate in positive change and to embrace values that reflect a shared vision for a brighter future.\n    </p>\n\n\n</article>\n\n\n\n<!-- SIMILAR NEWS -->\n<section class=\"similar-news\">\n    <header class=\"similar-news-heading\">\n        <h2>Similar News</h2>\n    </header>\n\n    <ul class=\"similar-news-grid\">\n        <!-- News 1 -->\n        <article class=\"similar-news-card\">\n            <a href=\"#\">\n                <img src=\"Images/Culturepage/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (12).jpg\" alt=\"Cultural events and modern society\">\n            </a>\n            <h3>\n                <a href=\"#\">Understanding the socialmovements reshaping ourworld today</a>\n            </h3>\n            \n        </article>\n\n        <!-- News 2 -->\n        <article class=\"similar-news-card\">\n            <a href=\"#\">\n                <img src=\"Images/Culturepage/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (13).jpg\" alt=\"Environmental awareness and sustainability\">\n            </a>\n            <h3>\n                <a href=\"#\">Tailoring treatments to individual genetic profiles</a>\n            </h3>\n        </article>\n\n        <!-- News 3 -->\n        <article class=\"similar-news-card\">\n            <a href=\"#\">\n                <img src=\"Images/Culturepage/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (14).jpg\" alt=\"Digital culture and social media\">\n            </a>\n            <h3>\n                <a href=\"#\">The journey from aspiring athlete to global sports icon</a>\n            </h3>\n        </article>\n\n    </div>\n\n</section>\n\n\n</main>";
+  return `<main class="culture-page-main">
+
+<header class="featured-story culture-page-story">
+
+    <div class="hero-image">
+        <img
+            src="Images/66de9b19c334563cf4036aa2_news-main-14-p-2000.jpg.jpg"
+            alt="St Peter's Basilica"
+        >
+    </div>
+
+    <div class="hero-text">
+        <div class="author-info">
+            <img
+                src="Images/author.jpg"
+                alt="Guy Hawkins"
+                class="author-pic"
+            >
+            <h2>GUY HAWKINS</h2>
+        </div>
+
+        <div class="article-date">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+            >
+                <rect x="3" y="5" width="18" height="16" rx="2"></rect>
+                <path d="M16 3v4M8 3v4M3 11h18"></path>
+            </svg>
+            <time datetime="2024-09-09">Monday, September 9, 2024</time>
+        </div>
+    </div>
+
+</header>
+
+
+<article class="culture-article">
+
+<h1>A Deep Dive into the Influence of Cultural Movements on Contemporary Society</h1>
+
+<p>Cultural movements have been a driving force behind societal change for centuries, but in today's globally connected world, theirinfluence has grown stronger and more immediate. These movements, ranging from social justice initiatives to environmentalcampaigns and digital innovations, shape not only individual beliefs but also entire communities and industries. The growingawareness and advocacy surrounding these causes highlight a societal shift toward inclusivity, diversity, and sustainabilityprinciples that are increasingly guiding the evolution of modern society.
+    </p>
+
+    <p>
+        One of the most prominent cultural movements in recent years has been the call for social justice and equality. This movementhas manifested in multiple forms, from the fight for gender equality and racial justice to the push for LGBTQ+ rights and workplaceinclusivity. As a result, companies, organizations, and even governments have been compelled to reconsider their practices andpolicies. Many businesses are implementing diversity and inclusion programs, and several organizations are actively working toclose pay gaps, ensure fair representation, and create safe spaces for marginalized groups. The influence of these efforts isapparent not only in the corporate world but also in entertainment, education, and media, where diverse representation andauthentic storytelling are now priorities.
+    </p>
+
+    <p>
+        Environmental movements are another powerful force reshaping contemporary society. From climate change activism tosustainable agriculture, people around the world are uniting to address environmental challenges. This push for sustainability is notonly affecting consumer behavior—where eco-friendly products and services are now highly valued—but is also prompting entireindustries to innovate. Many companies are investing in renewable energy, adopting zero-waste policies, and striving to reducetheir carbon footprint. Governments are also beginning to prioritize green policies, influenced by grassroots activism and theurgency of global warming. These environmental movements emphasize the need for both immediate and long-term changes toprotect the planet and its resources, encouraging individuals and corporations alike to rethink their environmental impact.
+    </p>
+
+    <p>
+        The rise of digital culture and technology-driven movements has further transformed how people engage with one another andparticipate in cultural shifts. Social media platforms have become powerful tools for awareness, allowing messages to spreadquickly and widely. Hashtags, viral campaigns, and online communities have enabled people to rally around common causes, fromhuman rights to political reform. This digital connectivity has not only broadened the reach of cultural movements but has alsoallowed individuals to play a more active role in social change. People can now share resources, organize events, and foster aglobal sense of community, bringing together individuals from different backgrounds and regions in pursuit of shared goals.
+    </p>
+
+    <p>
+        At the same time, cultural movements have left a significant impact on the arts and media industries. As awareness grows aroundissues like representation, mental health, and inclusivity, artists and creators are using their work to reflect these themes. Frommovies and television shows that tackle difficult social topics to literature that challenges traditional norms, art has become amedium through which societal issues are discussed and understood. Artists are pushing for stories that reflect a wide range ofhuman experiences, highlighting voices and narratives that have often been overlooked. This trend is not only expanding the scopeof artistic expression but is also encouraging audiences to consider diverse perspectives and engage in meaningful conversationsabout identity, equity, and empathy.
+    </p>
+
+    <p>
+        Education systems are also evolving in response to cultural movements. Schools and universities are gradually incorporatinglessons on topics such as climate change, mental health, and social justice, equipping students with the knowledge and skillsthey need to navigate a rapidly changing world. Many educational institutions are moving away from traditional, rigid curriculumsto more dynamic approaches that encourage critical thinking and awareness of global issues. These changes are preparingyounger generations to be not only knowledgeable but also empathetic and socially conscious, fostering a new wave of leaderswho value progress, inclusivity, and sustainability.
+    </p>
+
+    <h2>The Effects of Cultural Movements</h2>
+
+    <ul>
+        <li>Social justice movements are influencing business practices, encouraging inclusivity, fair representation, and equality in various sectors.</li>
+        <li>Environmental activism is driving industries toward sustainable practices, emphasizing green energy, waste reduction, and climate-conscious decision-making.</li>
+        <li>Digital connectivity has transformed how cultural movements spread, enabling individuals to participate in and support global causes through online platforms.</li>
+        <li>Arts and media are increasingly highlighting diverse perspectives, using storytelling to address complex societal issues and foster empathy.</li>
+        <li>Educational reforms are embedding critical social issues into curriculums, preparing future generations to approach the world with a socially and environmentally aware mindset.</li>
+    </ul>
+
+    <p>
+        These cultural movements underscore the importance of collective action, demonstrating that significant change is possiblewhen individuals and communities work together toward common goals. As we face global challenges, from environmental crisesto social inequalities, the role of cultural movements in shaping our future becomes increasingly vital. These movements not onlyadvocate for progress but also provide a roadmap for building a more inclusive, compassionate, and resilient society.
+    </p>
+
+    <p>
+        Looking ahead, the continued influence of cultural movements will likely shape new trends and priorities across various aspectsof life. Future innovations in technology, shifts in political policies, and even changes in everyday social interactions will all beinformed by the growing awareness and aspirations that these movements represent. In many ways, cultural movements reflecthumanity's collective journey toward a more just and equitable world, inspiring individuals to rethink their roles and contributionswithin their communities and beyond.
+    </p>
+
+    <p>
+        By examining and understanding these movements, we gain insight into the forces that drive modern society, encouraging us toparticipate in positive change and to embrace values that reflect a shared vision for a brighter future.
+    </p>
+
+
+</article>
+
+
+
+<!-- SIMILAR NEWS -->
+<section class="similar-news">
+    <header class="similar-news-heading">
+        <h2>Similar News</h2>
+    </header>
+
+    <ul class="similar-news-grid">
+        <!-- News 1 -->
+        <article class="similar-news-card">
+            <a href="#">
+                <img src="Images/Culturepage/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (12).jpg" alt="Cultural events and modern society">
+            </a>
+            <h3>
+                <a href="#">Understanding the socialmovements reshaping ourworld today</a>
+            </h3>
+            
+        </article>
+
+        <!-- News 2 -->
+        <article class="similar-news-card">
+            <a href="#">
+                <img src="Images/Culturepage/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (13).jpg" alt="Environmental awareness and sustainability">
+            </a>
+            <h3>
+                <a href="#">Tailoring treatments to individual genetic profiles</a>
+            </h3>
+        </article>
+
+        <!-- News 3 -->
+        <article class="similar-news-card">
+            <a href="#">
+                <img src="Images/Culturepage/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (14).jpg" alt="Digital culture and social media">
+            </a>
+            <h3>
+                <a href="#">The journey from aspiring athlete to global sports icon</a>
+            </h3>
+        </article>
+
+    </div>
+
+</section>
+
+
+</main>`;
 }
