@@ -47,6 +47,7 @@ function renderRoute() {
 
   updateActiveNavigation(path);
   initializeLoadMore();
+  initializeHeroSlider();
   window.scrollTo(0, 0);
 }
 
@@ -155,6 +156,66 @@ window.addEventListener("resize", () => {
     mainNavigation.classList.remove("is-open");
   }
 });
+
+// Start the homepage hero image carousel.
+let heroSliderTimer;
+
+function initializeHeroSlider() {
+  window.clearInterval(heroSliderTimer);
+  const hero = document.querySelector(".hero-image");
+  if (!hero) return;
+
+  const slides = Array.from(hero.querySelectorAll(".hero-slide"));
+  const dots = Array.from(hero.querySelectorAll(".hero-slider-dot"));
+  const previousButton = hero.querySelector(".hero-slider-prev");
+  const nextButton = hero.querySelector(".hero-slider-next");
+  if (slides.length < 2) return;
+
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    currentSlide = (index + slides.length) % slides.length;
+    slides.forEach((slide, slideIndex) => {
+      const active = slideIndex === currentSlide;
+      slide.classList.toggle("is-active", active);
+      slide.setAttribute("aria-hidden", String(!active));
+    });
+    dots.forEach((dot, dotIndex) => {
+      const active = dotIndex === currentSlide;
+      dot.classList.toggle("is-active", active);
+      if (active) dot.setAttribute("aria-current", "true");
+      else dot.removeAttribute("aria-current");
+    });
+  }
+
+  function startAutoSlide() {
+    window.clearInterval(heroSliderTimer);
+    heroSliderTimer = window.setInterval(() => showSlide(currentSlide + 1), 6000);
+  }
+
+  previousButton.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+    startAutoSlide();
+  });
+  nextButton.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+    startAutoSlide();
+  });
+  dots.forEach((dot, index) => dot.addEventListener("click", () => {
+    showSlide(index);
+    startAutoSlide();
+  }));
+
+  hero.addEventListener("mouseenter", () => window.clearInterval(heroSliderTimer));
+  hero.addEventListener("mouseleave", startAutoSlide);
+  hero.addEventListener("focusin", () => window.clearInterval(heroSliderTimer));
+  hero.addEventListener("focusout", event => {
+    if (!hero.contains(event.relatedTarget)) startAutoSlide();
+  });
+
+  showSlide(0);
+  startAutoSlide();
+}
 
 // Add the existing Back to Top control and show it after scrolling.
 const backToTopButton = document.createElement("button");
