@@ -190,7 +190,7 @@ function initializeHeroSlider() {
 
   function startAutoSlide() {
     window.clearInterval(heroSliderTimer);
-    heroSliderTimer = window.setInterval(() => showSlide(currentSlide + 1), 6000);
+    heroSliderTimer = window.setInterval(() => showSlide(currentSlide + 1), 3000);
   }
 
   previousButton.addEventListener("click", () => {
