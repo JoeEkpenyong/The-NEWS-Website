@@ -1,4 +1,319 @@
 // Homepage content migrated from the original index.html.
 export function renderHome() {
-  return "<main class=\"page-container\">\n\n        <!-- CATEGORY SHORTCUTS -->\n        <section class=\"category-strip\">\n            <a class=\"category-item\" href=\"#/world-news\">\n                <img src=\"Images/66daa00a9ca7528191cd8a14_news-thumb-05.jpg\" alt=\"World news\">\n                <div>\n                    <h3>WORLD NEWS</h3>\n                    <p>Economic policies and major international events</p>\n                </div>\n            </a>\n\n            <a class=\"category-item\" href=\"#/technology\">\n                <img src=\"Images/e8696c24b7bc5a2d4348e6b1ec97bf339b0255cb (2).png\" alt=\"Technology\">\n                <div>\n                    <h3>TECHNOLOGY</h3>\n                    <p>The latest trends in AI and innovation</p>\n                </div>\n            </a>\n\n            <a class=\"category-item\" href=\"#/health\">\n                <img src=\"Images/Frame 23 (3).jpg\" alt=\"Health\">\n                <div>\n                    <h3>HEALTH</h3>\n                    <p>Advancing the future of global health policies</p>\n                </div>\n            </a>\n\n            <a class=\"category-item\" href=\"#/sports\">\n                <img src=\"Images/66daa00a9ca7528191cd8a14_news-thumb-05.jpg.jpg\" alt=\"Sports\">\n                <div>\n                    <h3>SPORTS</h3>\n                    <p>Action and highlights from professional sports</p>\n                </div>\n            </a>\n        </section>\n\n       \n<!-- FEATURED STORY -->\n\n\n<article class=\"featured-story\">\n\n    <div class=\"hero-image\" aria-label=\"Featured news image carousel\">\n        <div class=\"hero-slides\">\n            <img class=\"hero-slide is-active\" src=\"Images/66de9b19c334563cf4036aa2_news-main-14-p-2000.jpg.jpg\" alt=\"St Peter's Basilica\">\n            <img class=\"hero-slide\" src=\"Images/66daa00a9ca7528191cd8a14_news-thumb-05.jpg\" alt=\"International news headline\">\n            <img class=\"hero-slide\" src=\"Images/Frame 76.jpg\" alt=\"Global business and economic news\">\n            <img class=\"hero-slide\" src=\"Images/Frame 92.jpg\" alt=\"Technology and innovation news\">\n        </div>\n        <span class=\"live-label\"><i></i>Live updates</span>\n        <div class=\"hero-slider-controls\">\n            <button class=\"hero-slider-arrow hero-slider-prev\" type=\"button\" aria-label=\"Previous featured image\">&#10094;</button>\n            <button class=\"hero-slider-arrow hero-slider-next\" type=\"button\" aria-label=\"Next featured image\">&#10095;</button>\n        </div>\n        <div class=\"hero-slider-dots\" aria-label=\"Choose featured image\">\n            <button class=\"hero-slider-dot is-active\" type=\"button\" aria-label=\"Show image 1\" aria-current=\"true\"></button>\n            <button class=\"hero-slider-dot\" type=\"button\" aria-label=\"Show image 2\"></button>\n            <button class=\"hero-slider-dot\" type=\"button\" aria-label=\"Show image 3\"></button>\n            <button class=\"hero-slider-dot\" type=\"button\" aria-label=\"Show image 4\"></button>\n        </div>\n    </div>\n    <div class=\"story-meta\">\n        <span>CULTURE</span>\n        <span>GUY HAWKINS</span>\n        <span><time datetime=\"2024-09-09\">Sep 9, 2024</time> — 96 Minute</span>\n    </div>\n    <h1>\n        <a href=\"#/culture-article\" class=\"featured-story-link\">\n            A deep dive into the influence of cultural movements\n            on contemporary society\n        </a>\n    </h1>\n</article>\n\n        <!-- LATEST NEWS -->\n        <section class=\"news-section\">\n            <header class=\"section-heading latest-news-heading\">\n                <h2>LATEST NEWS</h2>\n      <a href=\"#/world-news\" class=\"view-all\">\n    View All\n    <span class=\"view-all-arrow\" aria-hidden=\"true\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\"\n             width=\"16\"\n             height=\"16\"\n             viewBox=\"0 0 24 24\"\n             fill=\"none\"\n             stroke=\"currentColor\"\n             stroke-width=\"1.8\"\n             stroke-linecap=\"round\"\n             stroke-linejoin=\"round\">\n            <path d=\"M5 12h14\"></path>\n            <path d=\"m13 6 6 6-6 6\"></path>\n        </svg>\n    </span>\n</a>\n            </header>\n\n            <div class=\"latest-layout\">\n               <article class=\"lead-story\">\n    <div class=\"lead-story-image\">\n        <img src=\"Images/66dafef1e887710287f915ae_podcast-thumb-03.jpg.jpg\" alt=\"United States Capitol\">\n\n        <span class=\"video-play-icon\" aria-label=\"Play video\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\"\n                 width=\"24\"\n                 height=\"24\"\n                 viewBox=\"0 0 24 24\"\n                 fill=\"currentColor\">\n                <path d=\"M8 5v14l11-7z\"></path>\n            </svg>\n        </span>\n    </div>\n\n    <div class=\"image-caption\">\n        <h3>Riding the tide of innovation and inspiration</h3>\n        <p>Business — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n    </div>\n</article>\n                <div class=\"middle-stories\">\n                    <article>\n                        <h3>The effects of geopolitical shifts on global security</h3>\n                        <p>World News — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                    </article>\n                    <article>\n                        <h3>Affect the integrity and future of professional sports</h3>\n                        <p>Sports — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                    </article>\n                </div>\n\n                <div class=\"side-stories\">\n                    <article>\n                        <img src=\"Images/66da9dc10e3d938ff67d6973_news-thumb-01-p-500.jpg.jpg\" alt=\"Political speaker\">\n                        <!-- <h3>Leadership and the future of public policy</h3> -->\n                    </article>\n                    <article>\n                        <img src=\"Images/66da9dc10e3d938ff67d6973_news-thumb-01-p-500.jpg (1).jpg\" alt=\"Motorsport\">\n                        <!-- <h3>Inside the world of professional racing</h3> -->\n                    </article>\n                </div>\n            </div>\n\n            <div class=\"three-stories\">\n                <article class=\"small-story\">\n                    <img src=\"Images/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg.jpg\" alt=\"Cargo ship\">\n                    <h3>Strategies for success in a competitive landscape</h3>\n                    <p>Business — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                </article>\n\n                <article class=\"small-story\">\n                    <img src=\"Images/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (1).jpg\" alt=\"Heavy vehicle\">\n                    <h3>Innovation hubs are transforming traditional business models</h3>\n                    <p>Business — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                </article>\n\n                <article class=\"small-story\">\n                    <img src=\"Images/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (2).jpg\" alt=\"Surgeon in an operating room\">\n                    <h3>Tailoring treatments to individual genetic profiles</h3>\n                    <p>Health — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                </article>\n            </div>\n        </section>\n\n        <!-- WORLD NEWS -->\n        <section class=\"news-section\">\n            <header class=\"section-heading world-news-heading\">\n                <h2>WORLD NEWS</h2>\n                <a href=\"#/world-news\" class=\"view-all\">\n    View All\n    <span class=\"view-all-arrow\">→</span>\n</a>\n            </header>\n\n            <div class=\"world-layout\">\n                <article class=\"world-feature\">\n                    <img src=\"Images/67076a16bb0fa3c3787fccd0_news-thumb-19.jpg (2).jpg\" alt=\"International news\">\n                    <!-- <div class=\"world-overlay\"> -->\n                        <!-- <span>Oct 14, 2024</span> -->\n                        <!-- <h3>Understanding the social movements reshaping our world today</h3> -->\n                        <!-- <p>By Guy Hawkins</p> -->\n                    <!-- </div> -->\n                </article>\n\n                <div class=\"world-side\">\n                    <article>\n                        <img src=\"Images/Frame 76.jpg\" alt=\"Industrial economy\">\n                        <div>\n                            <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                            <h3>The global financial landscape and its implications for all</h3>\n                        </div>\n                    </article>\n\n                    <article>\n                        <img src=\"Images/Frame 76 (1).jpg\" alt=\"International leaders\">\n                        <div>\n                            <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                            <h3>Examining the challenges and responses of nations</h3>\n                        </div>\n                    </article>\n\n                    <article>\n                        <img src=\"Images/Frame 76 (2).jpg\" alt=\"Global affairs\">\n                        <div>\n                            <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                            <h3>A comprehensive analysis of the state of global affairs</h3>\n                        </div>\n                    </article>\n                </div>\n            </div>\n        </section>\n\n        <!-- TECHNOLOGY -->\n        <section class=\"news-section\">\n            <header class=\"section-heading technology-news-heading\">\n                <h2>TECHNOLOGY NEWS</h2>\n                <a href=\"#/technology\" class=\"view-all\">\n    View All\n    <span class=\"view-all-arrow\">→</span>\n</a>\n            </header>\n\n            <div class=\"technology-news-grid\">\n                <article class=\"small-story\">\n                    <img src=\"Images/Frame 92.jpg\" alt=\"Electric car\">\n                    <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                    <h3>Latest innovations pave the way to a sustainable future</h3>\n                </article>\n\n                <article class=\"small-story\">\n                    <img src=\"Images/Frame 92 (1).jpg\" alt=\"AI processor\">\n                    <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                    <h3>Understanding the role of big data in driving technological progress</h3>\n                </article>\n\n                <article class=\"small-story\">\n                    <img src=\"Images/Frame 92 (2).jpg\" alt=\"Robotics team\">\n                    <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                    <h3>Exploring the latest developments in AI Robotics</h3>\n                </article>\n\n                <article class=\"small-story\">\n                    <img src=\"Images/Frame 92 (3).jpg\" alt=\"Computer keyboard\">\n                    <p>Guy Hawkins — <time datetime=\"2024-09-09\">Sep 9, 2024</time></p>\n                    <h3>Future of computing and what it means for society</h3>\n                </article>\n            </div>\n        </section>\n\n        <!-- PODCASTS -->\n        <section class=\"news-section\">\n            <header class=\"section-heading podcast-heading\">\n                <h2>PODCASTS</h2>\n               <a href=\"#/podcast\" class=\"view-all\">\n    View All\n    <span class=\"view-all-arrow\">→</span>\n</a>\n            </header>\n\n            <div class=\"podcast-grid\">\n                <article class=\"podcast-card\">\n                    <img src=\"Images/66dafef1e887710287f915ae_podcast-thumb-03.jpg.jpg\" alt=\"Podcast episode\">\n                    <div>\n                        <h3>Riding the tide of innovation and inspiration</h3>\n                        <p>The latest trends, creative breakthroughs, and the visionary minds driving change.</p>\n                        <small>10 Minutes — Guy Hawkins</small>\n                    </div>\n                </article>\n\n                <article class=\"podcast-card\">\n                    <img src=\"Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (2).jpg\" alt=\"Chess board\">\n                    <div>\n                        <h3>Where ideas come alive and stories unfold</h3>\n                        <p>This podcast explores the journey from concept to creation.</p>\n                        <small>08 Minutes — Guy Hawkins</small>\n                    </div>\n                </article>\n\n                <article class=\"podcast-card\">\n                    <img src=\"Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (4).jpg\" alt=\"Creative workspace\">\n                    <div>\n                        <h3>Connecting ideas, people, and perspectives</h3>\n                        <p>Podcasts bridging ideas, people, perspectives, and meaningful conversations.</p>\n                        <small>12 Minutes — Guy Hawkins</small>\n                    </div>\n                </article>\n\n                <article class=\"podcast-card\">\n                    <img src=\"Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (1).jpg\" alt=\"Podcast presenter\">\n                    <div>\n                        <h3>On the air capturing the voices of change</h3>\n                        <p>Bringing you powerful stories and conversations with individuals who are making a difference.</p>\n                        <small>09 Minutes — Guy Hawkins</small>\n                    </div>\n                </article>\n\n                <article class=\"podcast-card\">\n                    <img src=\"Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (3).jpg\" alt=\"Recording studio\">\n                    <div>\n                        <h3>The podcast where ideas take flight</h3>\n                        <p>Our team explores new ways to turn ideas into meaningful stories.</p>\n                        <small>06 Minutes — Guy Hawkins</small>\n                    </div>\n                </article>\n\n                <article class=\"podcast-card\">\n                    <img src=\"Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (5).jpg\" alt=\"Person reading\">\n                    <div>\n                        <h3>Exploring thought-provoking topics weekly</h3>\n                        <p>A wide range of topics, offering fresh perspectives and in-depth analysis.</p>\n                        <small>10 Minutes — Guy Hawkins</small>\n                    </div>\n                </article>\n            </div>\n        </section>\n\n    </main>";
+  return `<main class="page-container">
+
+        <!-- CATEGORY SHORTCUTS -->
+        <section class="category-strip">
+            <a class="category-item" href="#/world-news">
+                <img src="Images/66daa00a9ca7528191cd8a14_news-thumb-05.jpg" alt="World news">
+                <div>
+                    <h3>WORLD NEWS</h3>
+                    <p>Economic policies and major international events</p>
+                </div>
+            </a>
+
+            <a class="category-item" href="#/technology">
+                <img src="Images/e8696c24b7bc5a2d4348e6b1ec97bf339b0255cb (2).png" alt="Technology">
+                <div>
+                    <h3>TECHNOLOGY</h3>
+                    <p>The latest trends in AI and innovation</p>
+                </div>
+            </a>
+
+            <a class="category-item" href="#/health">
+                <img src="Images/Frame 23 (3).jpg" alt="Health">
+                <div>
+                    <h3>HEALTH</h3>
+                    <p>Advancing the future of global health policies</p>
+                </div>
+            </a>
+
+            <a class="category-item" href="#/sports">
+                <img src="Images/66daa00a9ca7528191cd8a14_news-thumb-05.jpg.jpg" alt="Sports">
+                <div>
+                    <h3>SPORTS</h3>
+                    <p>Action and highlights from professional sports</p>
+                </div>
+            </a>
+        </section>
+
+       
+<!-- FEATURED STORY -->
+
+
+<article class="featured-story">
+
+    <div class="hero-image" aria-label="Featured news image carousel">
+        <div class="hero-slides">
+            <img class="hero-slide is-active" src="Images/66de9b19c334563cf4036aa2_news-main-14-p-2000.jpg.jpg" alt="St Peter's Basilica">
+            <img class="hero-slide" src="Images/66daa00a9ca7528191cd8a14_news-thumb-05.jpg" alt="International news headline">
+            <img class="hero-slide" src="Images/Frame 76.jpg" alt="Global business and economic news">
+            <img class="hero-slide" src="Images/Frame 92.jpg" alt="Technology and innovation news">
+        </div>
+        <span class="live-label"><i></i>Live updates</span>
+        <div class="hero-slider-controls">
+            <button class="hero-slider-arrow hero-slider-prev" type="button" aria-label="Previous featured image">&#10094;</button>
+            <button class="hero-slider-arrow hero-slider-next" type="button" aria-label="Next featured image">&#10095;</button>
+        </div>
+        <div class="hero-slider-dots" aria-label="Choose featured image">
+            <button class="hero-slider-dot is-active" type="button" aria-label="Show image 1" aria-current="true"></button>
+            <button class="hero-slider-dot" type="button" aria-label="Show image 2"></button>
+            <button class="hero-slider-dot" type="button" aria-label="Show image 3"></button>
+            <button class="hero-slider-dot" type="button" aria-label="Show image 4"></button>
+        </div>
+    </div>
+    <div class="story-meta">
+        <span>CULTURE</span>
+        <span>GUY HAWKINS</span>
+        <span><time datetime="2024-09-09">Sep 9, 2024</time> — 96 Minute</span>
+    </div>
+    <h1>
+        <a href="#/culture-article" class="featured-story-link">
+            A deep dive into the influence of cultural movements
+            on contemporary society
+        </a>
+    </h1>
+</article>
+
+        <!-- LATEST NEWS -->
+        <section class="news-section">
+            <header class="section-heading latest-news-heading">
+                <h2>LATEST NEWS</h2>
+      <a href="#/world-news" class="view-all">
+    View All
+    <span class="view-all-arrow" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="16"
+             height="16"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="1.8"
+             stroke-linecap="round"
+             stroke-linejoin="round">
+            <path d="M5 12h14"></path>
+            <path d="m13 6 6 6-6 6"></path>
+        </svg>
+    </span>
+</a>
+            </header>
+
+            <div class="latest-layout">
+               <article class="lead-story">
+    <div class="lead-story-image">
+        <img src="Images/66dafef1e887710287f915ae_podcast-thumb-03.jpg.jpg" alt="United States Capitol">
+
+        <span class="video-play-icon" aria-label="Play video">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width="24"
+                 height="24"
+                 viewBox="0 0 24 24"
+                 fill="currentColor">
+                <path d="M8 5v14l11-7z"></path>
+            </svg>
+        </span>
+    </div>
+
+    <div class="image-caption">
+        <h3>Riding the tide of innovation and inspiration</h3>
+        <p>Business — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+    </div>
+</article>
+                <div class="middle-stories">
+                    <article>
+                        <h3>The effects of geopolitical shifts on global security</h3>
+                        <p>World News — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                    </article>
+                    <article>
+                        <h3>Affect the integrity and future of professional sports</h3>
+                        <p>Sports — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                    </article>
+                </div>
+
+                <div class="side-stories">
+                    <article>
+                        <img src="Images/66da9dc10e3d938ff67d6973_news-thumb-01-p-500.jpg.jpg" alt="Political speaker">
+                        <!-- <h3>Leadership and the future of public policy</h3> -->
+                    </article>
+                    <article>
+                        <img src="Images/66da9dc10e3d938ff67d6973_news-thumb-01-p-500.jpg (1).jpg" alt="Motorsport">
+                        <!-- <h3>Inside the world of professional racing</h3> -->
+                    </article>
+                </div>
+            </div>
+
+            <div class="three-stories">
+                <article class="small-story">
+                    <img src="Images/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg.jpg" alt="Cargo ship">
+                    <h3>Strategies for success in a competitive landscape</h3>
+                    <p>Business — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                </article>
+
+                <article class="small-story">
+                    <img src="Images/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (1).jpg" alt="Heavy vehicle">
+                    <h3>Innovation hubs are transforming traditional business models</h3>
+                    <p>Business — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                </article>
+
+                <article class="small-story">
+                    <img src="Images/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (2).jpg" alt="Surgeon in an operating room">
+                    <h3>Tailoring treatments to individual genetic profiles</h3>
+                    <p>Health — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                </article>
+            </div>
+        </section>
+
+        <!-- WORLD NEWS -->
+        <section class="news-section">
+            <header class="section-heading world-news-heading">
+                <h2>WORLD NEWS</h2>
+                <a href="#/world-news" class="view-all">
+    View All
+    <span class="view-all-arrow">→</span>
+</a>
+            </header>
+
+            <div class="world-layout">
+                <article class="world-feature">
+                    <img src="Images/67076a16bb0fa3c3787fccd0_news-thumb-19.jpg (2).jpg" alt="International news">
+                    <!-- <div class="world-overlay"> -->
+                        <!-- <span>Oct 14, 2024</span> -->
+                        <!-- <h3>Understanding the social movements reshaping our world today</h3> -->
+                        <!-- <p>By Guy Hawkins</p> -->
+                    <!-- </div> -->
+                </article>
+
+                <div class="world-side">
+                    <article>
+                        <img src="Images/Frame 76.jpg" alt="Industrial economy">
+                        <div>
+                            <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                            <h3>The global financial landscape and its implications for all</h3>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="Images/Frame 76 (1).jpg" alt="International leaders">
+                        <div>
+                            <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                            <h3>Examining the challenges and responses of nations</h3>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="Images/Frame 76 (2).jpg" alt="Global affairs">
+                        <div>
+                            <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                            <h3>A comprehensive analysis of the state of global affairs</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECHNOLOGY -->
+        <section class="news-section">
+            <header class="section-heading technology-news-heading">
+                <h2>TECHNOLOGY NEWS</h2>
+                <a href="#/technology" class="view-all">
+    View All
+    <span class="view-all-arrow">→</span>
+</a>
+            </header>
+
+            <div class="technology-news-grid">
+                <article class="small-story">
+                    <img src="Images/Frame 92.jpg" alt="Electric car">
+                    <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                    <h3>Latest innovations pave the way to a sustainable future</h3>
+                </article>
+
+                <article class="small-story">
+                    <img src="Images/Frame 92 (1).jpg" alt="AI processor">
+                    <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                    <h3>Understanding the role of big data in driving technological progress</h3>
+                </article>
+
+                <article class="small-story">
+                    <img src="Images/Frame 92 (2).jpg" alt="Robotics team">
+                    <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                    <h3>Exploring the latest developments in AI Robotics</h3>
+                </article>
+
+                <article class="small-story">
+                    <img src="Images/Frame 92 (3).jpg" alt="Computer keyboard">
+                    <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
+                    <h3>Future of computing and what it means for society</h3>
+                </article>
+            </div>
+        </section>
+
+        <!-- PODCASTS -->
+        <section class="news-section">
+            <header class="section-heading podcast-heading">
+                <h2>PODCASTS</h2>
+               <a href="#/podcast" class="view-all">
+    View All
+    <span class="view-all-arrow">→</span>
+</a>
+            </header>
+
+            <div class="podcast-grid">
+                <article class="podcast-card">
+                    <img src="Images/66dafef1e887710287f915ae_podcast-thumb-03.jpg.jpg" alt="Podcast episode">
+                    <div>
+                        <h3>Riding the tide of innovation and inspiration</h3>
+                        <p>The latest trends, creative breakthroughs, and the visionary minds driving change.</p>
+                        <small>10 Minutes — Guy Hawkins</small>
+                    </div>
+                </article>
+
+                <article class="podcast-card">
+                    <img src="Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (2).jpg" alt="Chess board">
+                    <div>
+                        <h3>Where ideas come alive and stories unfold</h3>
+                        <p>This podcast explores the journey from concept to creation.</p>
+                        <small>08 Minutes — Guy Hawkins</small>
+                    </div>
+                </article>
+
+                <article class="podcast-card">
+                    <img src="Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (4).jpg" alt="Creative workspace">
+                    <div>
+                        <h3>Connecting ideas, people, and perspectives</h3>
+                        <p>Podcasts bridging ideas, people, perspectives, and meaningful conversations.</p>
+                        <small>12 Minutes — Guy Hawkins</small>
+                    </div>
+                </article>
+
+                <article class="podcast-card">
+                    <img src="Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (1).jpg" alt="Podcast presenter">
+                    <div>
+                        <h3>On the air capturing the voices of change</h3>
+                        <p>Bringing you powerful stories and conversations with individuals who are making a difference.</p>
+                        <small>09 Minutes — Guy Hawkins</small>
+                    </div>
+                </article>
+
+                <article class="podcast-card">
+                    <img src="Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (3).jpg" alt="Recording studio">
+                    <div>
+                        <h3>The podcast where ideas take flight</h3>
+                        <p>Our team explores new ways to turn ideas into meaningful stories.</p>
+                        <small>06 Minutes — Guy Hawkins</small>
+                    </div>
+                </article>
+
+                <article class="podcast-card">
+                    <img src="Images/66dafef1e887710287f915ae_podcast-thumb-03-p-500.jpg (5).jpg" alt="Person reading">
+                    <div>
+                        <h3>Exploring thought-provoking topics weekly</h3>
+                        <p>A wide range of topics, offering fresh perspectives and in-depth analysis.</p>
+                        <small>10 Minutes — Guy Hawkins</small>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>`;
 }
