@@ -139,6 +139,40 @@ document.addEventListener("submit", event => {
   }
 });
 
+// Close the mobile menu with Escape or when returning to desktop width.
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape" && menuButton && mainNavigation) {
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", "Open menu");
+    mainNavigation.classList.remove("is-open");
+  }
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 600 && menuButton && mainNavigation) {
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", "Open menu");
+    mainNavigation.classList.remove("is-open");
+  }
+});
+
+// Add the existing Back to Top control and show it after scrolling.
+const backToTopButton = document.createElement("button");
+backToTopButton.type = "button";
+backToTopButton.className = "back-to-top";
+backToTopButton.textContent = "↑";
+backToTopButton.setAttribute("aria-label", "Back to top");
+backToTopButton.title = "Back to top";
+document.body.appendChild(backToTopButton);
+
+window.addEventListener("scroll", () => {
+  backToTopButton.classList.toggle("is-visible", window.scrollY > 400);
+});
+
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
 // Re-render the page whenever the URL hash changes.
 window.addEventListener("hashchange", renderRoute);
 renderRoute();
