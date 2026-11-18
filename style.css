@@ -2475,3 +2475,24 @@ body {
         font-size: 34px;
     }
 }
+
+/* Mobile header: keep the date on the left and search/menu icons on the right */
+@media (max-width: 600px) {
+    .top-actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .action-arrow {
+        display: none;
+    }
+
+    .search-container {
+        order: 1;
+    }
+
+    .menu-button {
+        order: 2;
+    }
+}
