@@ -8,19 +8,19 @@ export function renderCulture() {
 
         <div class="culture-grid">
             <article class="culture-story">
-                <img src="Images/Frame 89.jpg" alt="Cultural celebration">
+                <img src="Images/Culture Images/pexels-benprater-38033690.jpg" alt="Cultural celebration">
                 <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
                 <h3>Communities Celebrate Traditions That Connect Generations</h3>
             </article>
 
             <article class="culture-story">
-                <img src="Images/Frame 76.jpg" alt="Art exhibition">
+                <img src="Images/Culture Images/pexels-michael-d-beckwith-2150568551-37884368.jpg" alt="Art exhibition">
                 <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
                 <h3>Artists Find New Ways to Share Their Work with the World</h3>
             </article>
 
             <article class="culture-story">
-                <img src="Images/Frame 76 (1).jpg" alt="Music and live performance">
+                <img src="Images/Culture Images/pexels-mingche-lee-2072368-39732021.jpg" alt="Music and live performance">
                 <p>Guy Hawkins — <time datetime="2024-09-09">Sep 9, 2024</time></p>
                 <h3>Music and Film Continue to Influence Popular Culture</h3>
             </article>

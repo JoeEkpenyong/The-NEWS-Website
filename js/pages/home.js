@@ -175,7 +175,7 @@ export function renderHome() {
 
             <div class="world-layout">
                 <article class="world-feature">
-                    <img src="Images/67076a16bb0fa3c3787fccd0_news-thumb-19.jpg (2).jpg" alt="International news">
+                    <img src="Images/world news/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg (12).jpg" alt="International news">
                     <!-- <div class="world-overlay"> -->
                         <!-- <span>Oct 14, 2024</span> -->
                         <!-- <h3>Understanding the social movements reshaping our world today</h3> -->
