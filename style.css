@@ -637,12 +637,14 @@ img:hover {
 
 .world-overlay {
     position: absolute;
-    top: 6%;
-    bottom: 6%;
-    left: 3%;
+    top: 3.4%;
+    bottom: 3.4%;
+    left: 2.4%;
     width: 45%;
     padding: 20px;
+    box-sizing: content-box;
     background: #fff;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -650,21 +652,26 @@ img:hover {
 
 .world-overlay > span {
     background: #222;
-    color: white;
-    padding: 8px;
+    color: #fff;
+    padding: 12px 20px;
     margin-bottom: 15px;
+    border-radius: 8px;
     font-size: 10px;
 }
 
 .world-overlay h3 {
-    font-size: 19px;
-    line-height: 1.4;
+    color: #222;
+    font-size: 25px;
+    line-height: 1.35;
     font-weight: 500;
+    margin: 0;
 }
 
 .world-overlay p {
+    color: #222;
     margin-top: auto;
-    font-size: 10px;
+    margin-bottom: 64px;
+    font-size: 12px;
     text-decoration: underline;
 }
 
