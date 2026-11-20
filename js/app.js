@@ -123,7 +123,7 @@ if (menuButton && mainNavigation) {
       menuButton.setAttribute("aria-expanded", "false");
       menuButton.setAttribute("aria-label", "Open menu");
       mainNavigation.classList.remove("is-open");
-    }
+    } 
   });
 }
 
