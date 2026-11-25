@@ -142,6 +142,9 @@ document.addEventListener("submit", event => {
 
 // Close the mobile menu with Escape or when returning to desktop width.
 document.addEventListener("keydown", event => {
+  if (event.key === "Escape" && typeof closeHeroLightbox === "function") {
+    closeHeroLightbox();
+  }
   if (event.key === "Escape" && menuButton && mainNavigation) {
     menuButton.setAttribute("aria-expanded", "false");
     menuButton.setAttribute("aria-label", "Open menu");
@@ -157,8 +160,9 @@ window.addEventListener("resize", () => {
   }
 });
 
-// Start the homepage hero image carousel.
+// Start the homepage hero image carousel and manage its lightbox.
 let heroSliderTimer;
+let closeHeroLightbox = null;
 
 function initializeHeroSlider() {
   window.clearInterval(heroSliderTimer);
@@ -169,6 +173,68 @@ function initializeHeroSlider() {
   const dots = Array.from(hero.querySelectorAll(".hero-slider-dot"));
   const previousButton = hero.querySelector(".hero-slider-prev");
   const nextButton = hero.querySelector(".hero-slider-next");
+
+  // Remove a previous lightbox if the SPA is rendering the homepage again.
+  document.querySelector(".hero-lightbox")?.remove();
+  closeHeroLightbox = null;
+
+  // Create the lightbox once for the current homepage render.
+  const lightbox = document.createElement("div");
+  lightbox.className = "hero-lightbox";
+  lightbox.setAttribute("role", "dialog");
+  lightbox.setAttribute("aria-modal", "true");
+  lightbox.setAttribute("aria-label", "Featured image viewer");
+  lightbox.hidden = true;
+
+  const lightboxImage = document.createElement("img");
+  lightboxImage.className = "hero-lightbox-image";
+  lightboxImage.alt = "";
+
+  const closeButton = document.createElement("button");
+  closeButton.className = "hero-lightbox-close";
+  closeButton.type = "button";
+  closeButton.setAttribute("aria-label", "Close image viewer");
+  closeButton.textContent = "×";
+
+  lightbox.append(lightboxImage, closeButton);
+  document.body.appendChild(lightbox);
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImage.removeAttribute("src");
+    closeHeroLightbox = null;
+    startAutoSlide();
+  }
+
+  function openLightbox(slide) {
+    lightboxImage.src = slide.currentSrc || slide.src;
+    lightboxImage.alt = slide.alt || "Featured news image";
+    lightbox.hidden = false;
+    closeHeroLightbox = closeLightbox;
+    window.clearInterval(heroSliderTimer);
+    closeButton.focus();
+  }
+
+  closeButton.addEventListener("click", closeLightbox);
+  lightbox.addEventListener("click", event => {
+    if (event.target === lightbox) closeLightbox();
+  });
+
+  slides.forEach((slide, index) => {
+    slide.tabIndex = 0;
+    slide.setAttribute("role", "button");
+    slide.setAttribute("aria-label", `Enlarge featured image ${index + 1}`);
+    slide.addEventListener("click", () => {
+      if (slide.classList.contains("is-active")) openLightbox(slide);
+    });
+    slide.addEventListener("keydown", event => {
+      if ((event.key === "Enter" || event.key === " ") && slide.classList.contains("is-active")) {
+        event.preventDefault();
+        openLightbox(slide);
+      }
+    });
+  });
+
   if (slides.length < 2) return;
 
   let currentSlide = 0;
