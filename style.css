@@ -317,9 +317,13 @@ img:hover {
     object-fit: cover;
     object-position: center;
     opacity: 0;
+    pointer-events: none;
     transition: opacity 700ms ease;
 }
-.hero-slide.is-active { opacity: 1; }
+.hero-slide.is-active {
+    opacity: 1;
+    pointer-events: auto;
+}
 .hero-slider-controls {
     position: absolute;
     inset: 50% 16px auto;
