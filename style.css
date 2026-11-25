@@ -2503,3 +2503,73 @@ body {
         order: 2;
     }
 }
+
+
+/* HERO SLIDER LIGHTBOX — scoped only to the homepage hero images */
+.hero-slides .hero-slide:hover {
+    transform: none;
+    cursor: zoom-in;
+}
+
+.hero-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 55px 24px 24px;
+    background: rgba(0, 0, 0, 0.92);
+}
+
+.hero-lightbox[hidden] {
+    display: none;
+}
+
+.hero-lightbox-image {
+    width: auto;
+    max-width: min(1100px, 92vw);
+    max-height: 85vh;
+    object-fit: contain;
+    cursor: default;
+    transition: none;
+}
+
+.hero-lightbox-image:hover {
+    transform: none;
+}
+
+.hero-lightbox-close {
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.hero-lightbox-close:hover {
+    background: #e53935;
+}
+
+@media (max-width: 600px) {
+    .hero-lightbox {
+        padding: 55px 12px 16px;
+    }
+
+    .hero-lightbox-image {
+        max-width: 96vw;
+        max-height: 82vh;
+    }
+
+    .hero-lightbox-close {
+        top: 12px;
+        right: 12px;
+    }
+}
